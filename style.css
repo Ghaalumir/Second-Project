@@ -1,0 +1,238 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    line-height: 1.6;
+    color: #3a3a3a;
+    font-family: 'Roboto', sans-serif;
+}
+
+ p {
+        font-size: .85em;
+        margin-bottom: 1.7em;
+ }
+
+img {
+    max-width: 100%;
+}
+
+h2,
+h3,
+a {
+	color: #093a58;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.50em;
+    margin: 0;
+}
+
+.name a,
+.main-nav a {
+	text-align: center;
+    display: block;
+}
+    
+.main-nav li {
+    list-style-type: none;
+    margin-left: -30px;
+}
+
+.main-nav {
+    text-transform: uppercase;
+}
+
+.container-header {
+    background-color: white;
+
+}
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+  }
+
+.container-portfolio {
+    text-align: center;
+
+}
+
+.container-skills {
+    text-align: center;
+    
+}
+.skills {
+    margin-left: -30px;
+
+}
+
+.container-footer {
+    text-align: center;
+
+}
+
+.copyright {
+    text-align: center;
+
+}
+
+@media(min-width: 321px) {
+    
+    .main-nav  {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.main-nav li {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 2em;
+    margin-top: 1em;
+
+}
+    
+.img {
+    float: right;
+    margin-left: 1.25em;
+
+    }
+.title-portfolio  {
+    margin-top: 150px;
+    text-align: center;
+    
+
+    }
+    .clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+    }
+
+    .Marketing {
+        float: left;
+        width: 49%;
+    }
+    .Search {
+        float: right;
+        width: 49%;
+
+    }
+    .Travel {
+        float: left;
+        width: 49%;
+    }
+    .Map {
+        float: right;
+        width: 49%;
+
+    }
+    .Photo {
+        float: left;
+        width: 49%;
+    }
+    .Calculator {
+        float: right;
+        width: 49%;
+
+    }
+    .container-portfolio {
+        max-width:90%;
+        margin: auto;
+
+    }
+    .container-header {
+        max-width:90%;
+        margin: auto;
+
+    }
+    
+    
+}
+
+@media(min-width: 1025px) {
+
+    .main-nav li{
+     float: right;
+     margin: auto;
+     padding-top: 15px;
+     padding-bottom: 30px;
+
+}
+    .name {
+     float :left;
+
+}
+
+.Marketing {
+    
+    width: 30%;
+    
+}
+.Search {
+    float: right;
+    width: 30%;
+    
+
+}
+.Travel {
+   
+    width: 30%;
+    margin-left: 70px;
+    
+}
+.Map {
+    
+    width: 30%;
+    
+
+}
+.Photo {
+    
+    width: 30%;
+    
+}
+.Calculator {
+    
+    width: 30%;
+    margin-right: 70px;
+    
+}
+.container-portfolio {
+    max-width:90%;
+    margin: auto;
+
+}
+.container-header {
+    max-width:90%;
+    margin: auto;
+
+}
+}
